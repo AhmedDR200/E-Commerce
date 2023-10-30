@@ -5,6 +5,7 @@
 - Pytest
 - Pytest-django
 - Black
+- Django-mptt
 
 
 for creating secret keys in python shell:
