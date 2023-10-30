@@ -11,26 +11,19 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from dotenv import load_dotenv
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+load_dotenv()
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '4^c!^n@#&_-wt4h&r8&xaz^8(dd0%g))0(c$gs5w&!0=!9(6o0'
-'''
-for creating secret keys in python shell:
-
-from django.core.management.utils import get_random_secret_key
-print(get_random_secret_key())
-
-'''
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
 
 # Application definition
 
