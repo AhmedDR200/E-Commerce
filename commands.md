@@ -7,6 +7,8 @@
 - Black
 - Django-mptt
 - drf-spectacular
+- coverage
+- pytest-cov
 
 
 for creating secret keys in python shell:
