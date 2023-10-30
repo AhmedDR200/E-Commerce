@@ -4,6 +4,7 @@
 - Python-dotenv
 - Pytest
 - Pytest-django
+- Black
 
 
 for creating secret keys in python shell:
