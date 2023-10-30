@@ -2,6 +2,8 @@
 - Django
 - Django-RestFramework
 - Python-dotenv
+- Pytest
+- Pytest-django
 
 
 for creating secret keys in python shell:
