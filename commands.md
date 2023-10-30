@@ -6,6 +6,7 @@
 - Pytest-django
 - Black
 - Django-mptt
+- drf-spectacular
 
 
 for creating secret keys in python shell:
@@ -14,3 +15,7 @@ for creating secret keys in python shell:
     
     print(get_random_secret_key())
 
+
+for creating schema:
+
+    python manage.py spectacular --file schema.yml
