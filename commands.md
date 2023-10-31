@@ -9,6 +9,7 @@
 - drf-spectacular
 - coverage
 - pytest-cov
+- pytest-factoryboy
 
 
 for creating secret keys in python shell:
